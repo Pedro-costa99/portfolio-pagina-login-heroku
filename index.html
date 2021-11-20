@@ -19,95 +19,83 @@
 
 <body>
     <nav>
-        <ul class="nav justify-content-end">
+        <ul class="nav justify-content-start aligm-itens-center">
+            <div style="display: flex; align-items: center;">
+                <svg width="28px" height="10px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg"><title>Salesforce Developers</title><g id="Section-/-Nav-/-Footer-/-Architects-0" transform="translate(-148.000000, -447.000000)"><path d="M163.003774,447.648649 C164.8,447.648649 166.384906,448.675676 167.230189,450.189189 C167.969811,449.864865 168.762264,449.648649 169.607547,449.648649 C172.883019,449.648649 175.524528,452.351351 175.524528,455.702703 C175.524528,459.054054 172.883019,461.756757 169.607547,461.756757 C169.184906,461.756757 168.815094,461.702703 168.445283,461.648649 C167.70566,463 166.279245,463.918919 164.641509,463.918919 C163.954717,463.918919 163.320755,463.756757 162.739623,463.486486 C162,465.27027 160.256604,466.513514 158.196226,466.513514 C156.083019,466.513514 154.233962,465.162162 153.54717,463.216216 C153.230189,463.27027 152.913208,463.324324 152.596226,463.324324 C150.060377,463.324324 148,461.216216 148,458.621622 C148,456.891892 148.898113,455.378378 150.271698,454.567568 C150.007547,453.918919 149.849057,453.162162 149.849057,452.405405 C149.849057,449.432432 152.226415,447 155.184906,447 C157.033962,447.054054 158.566038,447.864865 159.516981,449.162162 C160.415094,448.243243 161.630189,447.648649 163.003774,447.648649 Z" id="Path-0" fill="#00A1E0"></path></g></svg>
+
+            </div>
+            
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"></a>
+                <a class="nav-link active nav-text" aria-current="page" href="#">Salesforce Developers</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#"></a>
+            <li>
+                <span style="color:black; text-decoration: none;">/</span>
+
             </li>
+            
             <li class="nav-item">
+                <a class="nav-link nav-text" href="#">Heroku</a>
+            </li>
+            <!-- <li class="nav-item">
                 <a class="nav-link text-dark" href="#"><i class="fas fa-th fa-1x"></i></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-user-circle fa-2x"></i></a>
-            </li>
+            </li> -->
         </ul>
     </nav>
 
     <main>
-        <section class="section-img-logo">
-            <div>
-                <img src="" alt="">
+        <section class="section-img-logo" style="width: 80vw;">
+            <div style="display: flex; justify-content: center; width: 80vw;">
+                <img src="img-3-heroku.png" height="70px" width="70px" alt="">
             </div>
         </section>
         <section class="section-form">
+            <div class="container-title-form-top">
+                <h2 class="title-form-top">Log in to your account</h2>
+            </div>
+
             <form>
-                <div class="row container-input-search">
-                    <div class="mb-3 col-12 col-sm-6 ">
-                        <input type="text" class="form-control  input-search input-group-lg" id="exampleInputEmail1"
-                            aria-describedby="emailHelp">
+
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <div class="input-group mb-3 input-group-lg">
+
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-user icon"></i></span>
+                    <input type="email" class="form-control" placeholder="Email address" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <label for="exampleInputEmail1" class="form-label">Password</label>
+                <div class="input-group mb-3 input-group-lg">
+
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-lock icon"></i></span>
+                    <input type="text" class="form-control" placeholder="Password" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <div class="container-button-login">
+                    <div class="d-grid gap-2 col-12 mx-auto container-button-login">
+                        <button class="btn btn-primary button-login" type="button">Log in</button>
+
                     </div>
                 </div>
-                <div class="container-button">
-                    
-                        <button type="submit" class="btn button btn-light button-search"></button>
-                 
-                        <button type="submit" class="btn button btn-light button-sorte"></button>
-                   
-                </div>
-            </form>
+
+            </form>            
+            <div class="container-footer-form">
+                <!-- <h2 class="title-footer-form">New To Heroku? Sign Up</h2> -->
+                <a href="#" class="title-footer-form">New to Heroku? <span>Sign Up</span></a>
+            </div>
         </section>
-        
-        
+        <div class="container-forgot-password">
+            <a href="#" class="forgot-password"><span>Login via SSO</span> <span>Forgot your password?</span></a>
+        </div>
+
+
 
     </main>
-    
+
 
     <footer class="fixed-bottom footer">
-        <div class="container-title-brasil">
-            <div class="title-brasil">
-                
-            </div>
-
-        </div>
-        <div class="container-fluid container-other-titles">
-            <div class="row container-other-titles-row">
-                <div class="col-12 col-sm-6 container-other-titles-row__right-column">
-                    <div class="row" id="row__left">
-                        <div class="col-4 col-sm-4 col-md-2  col-lg-2 col-xl-2">
-                            <a class="nav-link" href="#"></a>                            
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="nav-link" href="#"></a>                            
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
-                            <a class="nav-link" href="#"></a>  
-                            
-                        </div>
-                        <div class="col-4 col-sm-3 col-md-5 col-lg-5 col-xl-4 como-funciona-a-pesquisa">
-                            <a class="nav-link" href="#"></a>  
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6" id="col__right">
-                    <div class="row" id="row__right">
-                        <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-                            <a class="nav-link" href="#"></a>                             
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-3  col-lg-3 col-xl-2">
-                            <a class="nav-link" href="#"></a> 
-                            
-                        </div>
-                        <div class="col-4 col-sm-4 col-md-3  col-lg-3 col-xl-2">
-                            <a class="nav-link" href="#"></a>                             
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+       
 
     </footer>
 
