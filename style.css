@@ -24,8 +24,7 @@ html, body{
 }
 
 body{
-    width: 100%;
-    max-width: 100%;
+    width: 100%;    
     overflow-x: hidden;
     display: flex;
     justify-content: flex-start;
@@ -38,7 +37,7 @@ body{
 
 nav{
     
-    height: 3.9vh;
+    height: 5.1vh;
     width: 100vw;
     color: #ffffff;
     background-color: #e2e8f0;
@@ -49,8 +48,7 @@ ul {
     height: 100%;    
     margin-left: 10px;
     
-    /* padding-top: 10px;
-    padding-right: 10px; */
+   
 }
 
 li{
@@ -71,14 +69,15 @@ li{
 }
 
 main{
-    height: 80vh;
-    width: 80vw;    
-    min-height: 390px;
+    height: 100vh;
+    width: 100vw;    
+    /* min-height: 390px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;    
     margin-top: 50px;
+    
 }
 
 .section-img-logo{
@@ -93,22 +92,19 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    width: 100%;
-    /* max-width: 24vw; */
+    flex-direction: column;    
+    /* width: 24vw; */
+    width: 430px;
     /* min-width: 280px; */
-    height: 100%;
+    /* height: 67%; */
+    height: 443.50px;
     background-color: #ffffff;
     border-radius: 8px;
     
     
 }
 
-#nome7{
 
-    height: 67%;
-
-}
 
 .container-title-form-top{
     height: 25%;
@@ -138,7 +134,12 @@ form{
     align-items: center;
     height: 60%;
     width: 80%;
+    font-size: 1.4rem;
     
+}
+
+input{
+    height: 44px;
 }
 
 .container-footer-form{
@@ -333,9 +334,7 @@ input:hover{
     text-decoration: none;
 }
 
-#nome3{
-    width: 80vw;
-}
+
 
 #nome4{
     display: flex; 
@@ -348,25 +347,47 @@ input:hover{
 }
 
 
+@media (min-width: 768px) {
+    .section-form{
+        width: 430px;
+        height: 443.50px;
+        
+    }
+        
+}
 
-@media screen and (max-width: 800px) {
 
-    .como-funciona-a-pesquisa{
 
-        display: none;
+@media screen and (max-width: 767px) {
+    .section-form{
+        width: 300px;
+        /* height: 411.64px; */
+    }
 
+        
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .section-form{
+        width: 283.83px;
+        /* height: 411.64px; */
     }
     
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 300px) {
 
-    
-    
+    .section-form{
+        width: 250px;
+        /* height: 411.64px; */
+    }
     
 }
 
-@media only screen and (orientation: landscape) and (max-height: 540px) {
+/* @media only screen and (orientation: landscape) and (max-height: 540px) {
 
     body{
         height: 180vh;
@@ -374,5 +395,5 @@ input:hover{
 
     
     
-}
+} */
 
