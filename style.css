@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
+        
 }
 
 html{
@@ -13,19 +12,19 @@ html{
 }
 
 html, body{
-    height: 120vh;
-    width: 100vw;
     
-    /* min-height: 390px;
-    min-width: 356px; */
+    height: 100vh;
+    width: 100vw;   
     background-color: #664986;
+    min-width: 224px;
+    overflow-x: hidden;
     
     
 }
 
 body{
-    width: 100%;    
-    overflow-x: hidden;
+    
+    
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -37,10 +36,13 @@ body{
 
 nav{
     
-    height: 5.1vh;
+    height: 6vh;
+    min-height: 30px;
     width: 100vw;
+    min-width: 224px;
     color: #ffffff;
     background-color: #e2e8f0;
+    font-size: 12px;
 }
 
 ul {
@@ -55,7 +57,7 @@ li{
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 5px !important;
+      
 }
 
 .nav-link {
@@ -65,25 +67,24 @@ li{
 }
 
 .nav-text{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
 }
 
 main{
-    height: 100vh;
-    width: 100vw;    
-    /* min-height: 390px; */
+    height: 110vh;
+    min-height: 627px;
+    width: 100vw;        
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center;    
     flex-direction: column;    
-    margin-top: 50px;
+    margin-top: 70px;
     
 }
 
 .section-img-logo{
-    /* margin-bottom: 40px; */
+    
     width: 100vw;
-    height: 13.5vh;
+    min-height: 140px;
     float: top;
     
 }
@@ -92,41 +93,85 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;    
-    /* width: 24vw; */
-    width: 430px;
-    /* min-width: 280px; */
-    /* height: 67%; */
-    height: 443.50px;
+    flex-direction: column;        
+    width: 430px;    
+    min-width: 224px;
+    height: 443.5px;
+    min-height: 443.5px;
     background-color: #ffffff;
     border-radius: 8px;
-    
     
 }
 
 
-
 .container-title-form-top{
     height: 25%;
+    width: 80%;
     display: flex;
     align-items: center;  
+    justify-content: center;
+    text-align: center;
     
 }
 
 .title-form-top{
     float: top;
-    height: 20%;
-    font-weight:lighter;
+    height: 35%;
+    width: 80%;
+    font-weight: 200;
     color: #664986;
+    font-size: 2.6rem;
+    font-family: inherit;
     
 }
 
 .title-footer-form{
     height: 30%;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     
 }
 
+#basic-addon1{
+    width: 40px; 
+    display: flex; 
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.span{
+    font-size: 14px;
+}
+
+.span-new-to-heroku{
+    margin-left: 10px;
+}
+
+.span-heroku-is-a{
+    height: 30px;
+    text-decoration: none;
+}
+
+.span-svg{
+    height: 70px;
+}
+
+.svg{
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.span-company{
+    height: 30px;
+    text-decoration: none;
+}
+
+.row-footer{
+    justify-content: center;
+}
+
+.row-salesforce{
+    justify-content: center;
+}
 
 form{
     
@@ -136,6 +181,12 @@ form{
     width: 80%;
     font-size: 1.4rem;
     
+}
+
+.form-label{
+    color: #62748e;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 input{
@@ -174,11 +225,11 @@ span{
 
 .icon{
     color: #664986;
+    font-size: 14px;
 }
 
 .container-forgot-password{
-    height: 8%;
-    width: 25%;
+    height: 8%;    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,22 +239,13 @@ span{
 .forgot-password {
     color: #ffffff;
 }
+
 a:hover{
     text-decoration: none !important;
     color: #664986;
 }
 
-.container-input-search{
-    justify-content: center; 
-    margin-bottom: 20px;
-    
-}
 
-.input-search{
-    border-radius: 24px;
-    height: 50px;
-    
-}
 
 .container-button{
     display: flex; 
@@ -214,29 +256,15 @@ a:hover{
     
 }
 
-.button-search{
-    margin-right: 15px;
-    /* background-color: #D3D3D3 !important; */
-    height: 70%;
-    width: 150px;
-    
-    border: none;
-    font-size: 5.6rem;
-    border-radius: 6px;
-    
-
-}
-
 .button-login{
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     background-color: #60467e;
+    height: 45px;
+    border-radius: 6px;
+    color: #ffffff;
 
 }
 
-.button-login:hover{
-    background-color: #60467e;
-
-}
 
 .btn{
     transition: 0s;
@@ -250,150 +278,98 @@ a:hover{
 }
 
 
-.button-search:hover{
-
-    border: 1px solid #d3d3d3 !important; 
-    cursor: pointer;
-    
-
-}
-
-.button-sorte{
-    /* background-color: #D3D3D3 !important;    */
-    border: none;
-    height: 70%;
-    width: 150px;
-    font-size: 2.6rem;
-    border-radius: 6px;
-    
-  
-
-}
-
-.button-sorte:hover{
-
-    border: 1px solid #d3d3d3 !important; 
-    outline: 0 !important;
-    box-shadow:none !important;
-    outline: none !important;
-    cursor: pointer;
-    
-  
-
-}
-
-
-
-input:hover{
-
-    box-shadow: 0 0 1em #70757a;
-}
-
-
-
-
 .footer{
-    background-color: #f8f8f8; 
-    min-width: 320px;
+    
     font-size: 1.6rem;
     width: 100vw;
+    min-width: 224px;
+    height: 188px;
+    min-height: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: bottom;
 }
 
-.container-title-brasil{
-    display: flex; 
-    justify-content: flex-start; 
-    padding: 10px; 
-    color: #70757a;
+input:focus { 
+    outline: none !important;
+    border-color: #664986 !important;
+    box-shadow: none !important;
+    
 }
 
-
-.title-brasil{
-    margin-left: 5vh;
+button:hover{
+    background-color: #664986 !important;
+    color:#ffffff !important;
 }
 
-.container-other-titles{
-    display: flex; 
-    flex-direction: row; 
-    padding: 10px; 
-    border-top: 1px solid #D3D3D3; 
-    background-color: #f8f8f8;
+button{
+    background-color: #664986;
 }
 
-.container-other-titles-row{
-    width: 100%;
-}
-
-
-#nome1{
+#salesforce-developers-svg{
     display: flex; 
     align-items: center;
+    font-size: 20px;
 }
 
-#nome2{
+#barra-invertida{
     color:black; 
     text-decoration: none;
 }
 
 
-
-#nome4{
+#imagem-heroku{
     display: flex; 
     justify-content: center; 
     width: 100vw;
 }
 
-#nome6{
+#forgot-your-password{
     margin-left: 10px;
 }
 
-
-@media (min-width: 768px) {
-    .section-form{
-        width: 430px;
-        height: 443.50px;
-        
-    }
-        
+.nav-text-white{
+    color: #ffffff !important;
+    font-size: 1.4rem;
 }
 
+#heroku-is-a{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
 
 
 @media screen and (max-width: 767px) {
     .section-form{
-        width: 300px;
-        /* height: 411.64px; */
+        width: 300px;        
     }
 
         
 }
-
-
 
 @media screen and (max-width: 600px) {
 
     .section-form{
         width: 283.83px;
-        /* height: 411.64px; */
+        
     }
     
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 314px) {
 
     .section-form{
-        width: 250px;
-        /* height: 411.64px; */
+        width: 80vw;
+        
     }
     
 }
 
-/* @media only screen and (orientation: landscape) and (max-height: 540px) {
-
-    body{
-        height: 180vh;
-    }
-
+@media only screen and (orientation: landscape) and (max-height: 540px) {
+  
     
-    
-} */
+}
 

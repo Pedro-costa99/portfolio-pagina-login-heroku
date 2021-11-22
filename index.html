@@ -14,101 +14,123 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 
-    <title>Portfólio - Layout Heroku</title>
+    <title>Teste Login</title>
 </head>
 
 <body>
     <nav>
         <ul class="nav justify-content-start">
-            <div id="nome1">
-                <svg width="28px" height="10px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <div id="salesforce-developers-svg">
+                <svg width="32px" height="14px" viewBox="0 0 28 20" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <title>Salesforce Developers</title>
                     <g id="Section-/-Nav-/-Footer-/-Architects-0" transform="translate(-148.000000, -447.000000)">
                         <path
                             d="M163.003774,447.648649 C164.8,447.648649 166.384906,448.675676 167.230189,450.189189 C167.969811,449.864865 168.762264,449.648649 169.607547,449.648649 C172.883019,449.648649 175.524528,452.351351 175.524528,455.702703 C175.524528,459.054054 172.883019,461.756757 169.607547,461.756757 C169.184906,461.756757 168.815094,461.702703 168.445283,461.648649 C167.70566,463 166.279245,463.918919 164.641509,463.918919 C163.954717,463.918919 163.320755,463.756757 162.739623,463.486486 C162,465.27027 160.256604,466.513514 158.196226,466.513514 C156.083019,466.513514 154.233962,465.162162 153.54717,463.216216 C153.230189,463.27027 152.913208,463.324324 152.596226,463.324324 C150.060377,463.324324 148,461.216216 148,458.621622 C148,456.891892 148.898113,455.378378 150.271698,454.567568 C150.007547,453.918919 149.849057,453.162162 149.849057,452.405405 C149.849057,449.432432 152.226415,447 155.184906,447 C157.033962,447.054054 158.566038,447.864865 159.516981,449.162162 C160.415094,448.243243 161.630189,447.648649 163.003774,447.648649 Z"
-                            id="Path-0" fill="#00A1E0"></path>
+                            id="Path-0" fill="#00A1E0">
+                        </path>
                     </g>
                 </svg>
-
             </div>
-
             <li class="nav-item">
                 <a class="nav-link active nav-text" aria-current="page" href="#">Salesforce Developers</a>
             </li>
             <li>
-                <span id="nome2">/</span>
-
+                <span id="barra-invertida">/</span>
             </li>
-
             <li class="nav-item">
                 <a class="nav-link nav-text" href="#">Heroku</a>
             </li>
-
         </ul>
     </nav>
 
     <main>
         <section class="section-img-logo">
-            <div id="nome4">
+            <div id="imagem-heroku">
                 <img src="img-3-heroku.png" height="90px" width="90px" alt="">
             </div>
         </section>
+        <section class="section-form ">
+            <div class="container-title-form-top">
+                <h2 class="title-form-top">Log in to your account</h2>
+            </div>
+            <form>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <div class="input-group mb-3 input-group-lg">
 
-        
-            <section class="section-form ">
-                <div class="container-title-form-top">
-                    <h2 class="title-form-top">Log in to your account</h2>
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-user icon"></i></span>
+                    <input type="email" class="form-control" placeholder="Email address" aria-label="Username"
+                        aria-describedby="basic-addon1">
                 </div>
+                <label for="exampleInputEmail1" class="form-label">Password</label>
+                <div class="input-group mb-3 input-group-lg">
 
-                <form>
-
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <div class="input-group mb-3 input-group-lg">
-
-                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-user icon"></i></span>
-                        <input type="email" class="form-control" placeholder="Email address" aria-label="Username"
-                            aria-describedby="basic-addon1">
-                    </div>
-                    <label for="exampleInputEmail1" class="form-label">Password</label>
-                    <div class="input-group mb-3 input-group-lg">
-
-                        <span class="input-group-text" id="basic-addon1"><i class="fas fa-lock icon"></i></span>
-                        <input type="text" class="form-control" placeholder="Password" aria-label="Username"
-                            aria-describedby="basic-addon1">
-                    </div>
-                    <div class="container-button-login">
-                        <div class="d-grid gap-2 col-12 mx-auto container-button-login">
-                            <button class="btn btn-primary btn-lg button-login" type="button">Log in</button>
-
-                        </div>
-                    </div>
-
-                </form>
-                <div class="container-footer-form">
-
-                    <a href="#" class="title-footer-form">New to Heroku?<span style="margin-left: 10px;">Sign
-                            Up</span></a>
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-lock icon"></i></span>
+                    <input type="text" class="form-control" placeholder="Password" aria-label="Username"
+                        aria-describedby="basic-addon1">
                 </div>
-            </section>
-       
+                <div class="container-button-login">
+                    <div class="d-grid gap-2 col-12 mx-auto container-button-login">
+                        <button class="btn btn-lg button-login" type="button">Log in</button>
 
-
+                    </div>
+                </div>
+            </form>
+            <div class="container-footer-form">
+                <a href="#" class="title-footer-form">
+                    New to Heroku?
+                    <span class="span-new-to-heroku">Sign Up</span>
+                </a>
+            </div>
+        </section>
         <div class="container-forgot-password">
-            <a href="#" class="forgot-password"><span>Login via SSO</span> <span id="nome6">Forgot your
-                    password?</span></a>
+            <a href="#" class="forgot-password">
+                <span class="span">Login via SSO</span>
+                <span class="span" id="forgot-your-password">Forgot your password?</span>
+            </a>
         </div>
-
-
-
     </main>
+    <footer class="footer">
+        <a href="#" id="heroku-is-a" class="nav-text-white">
+            <span class="span-heroku-is-a">Heroku is a </span>
+            <span class="span-svg">
+                <svg class="svg" width="70px" height="70px" viewBox="0 0 28 20" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>Salesforce Developers</title>
+                    <g id="Section-/-Nav-/-Footer-/-Architects-0" transform="translate(-148.000000, -447.000000)">
+                        <path
+                            d="M163.003774,447.648649 C164.8,447.648649 166.384906,448.675676 167.230189,450.189189 C167.969811,449.864865 168.762264,449.648649 169.607547,449.648649 C172.883019,449.648649 175.524528,452.351351 175.524528,455.702703 C175.524528,459.054054 172.883019,461.756757 169.607547,461.756757 C169.184906,461.756757 168.815094,461.702703 168.445283,461.648649 C167.70566,463 166.279245,463.918919 164.641509,463.918919 C163.954717,463.918919 163.320755,463.756757 162.739623,463.486486 C162,465.27027 160.256604,466.513514 158.196226,466.513514 C156.083019,466.513514 154.233962,465.162162 153.54717,463.216216 C153.230189,463.27027 152.913208,463.324324 152.596226,463.324324 C150.060377,463.324324 148,461.216216 148,458.621622 C148,456.891892 148.898113,455.378378 150.271698,454.567568 C150.007547,453.918919 149.849057,453.162162 149.849057,452.405405 C149.849057,449.432432 152.226415,447 155.184906,447 C157.033962,447.054054 158.566038,447.864865 159.516981,449.162162 C160.415094,448.243243 161.630189,447.648649 163.003774,447.648649 Z"
+                            id="Path-0" fill="#00A1E0">
+                        </path>
+                    </g>
+                </svg>
+            </span>
+            <span class="span-company">Company</span>
+        </a>
+        <ulstyle="height: 30%; justify-content: center; padding: 0; margin: 0; width: 100%;">
+            <ul>
+                <div class="row row-footer">
+                    <li class="nav-item col-auto">
+                        <a class="nav-link active nav-text-white" aria-current="page" href="#">Terms of Service</a>
+                    </li>
+                    <li class="col-auto">
+                        <a class="nav-link nav-text-white" href="#">Privacy</a>
 
-    <!-- 
-    <footer class="fixed-bottom footer">
-       
+                    </li>
 
-    </footer> -->
-
-
+                    <li class="nav-item col-auto">
+                        <a class="nav-link nav-text-white" href="#">Cookies</a>
+                    </li>
+                    <li class="nav-item col-auto">
+                        <a class="nav-link nav-text-white" href="#">Cookie Preferences</a>
+                    </li>
+                </div>
+                <div class="row row-salesforce">
+                    <li class="nav-item col-auto">
+                        <a class="nav-link nav-text-white" href="#">2021 Salesforce.com</a>
+                    </li>
+                </div>
+            </ul>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper    -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
