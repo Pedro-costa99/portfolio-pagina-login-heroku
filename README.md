@@ -1,4 +1,4 @@
-## Este projeto é o layout da página de Login da Heroku, realizado para Portfólio Front-end.
+## ✨ Este projeto é o layout da página de Login da Heroku, realizado para Portfólio Front-end.
 - Iniciado em 20/11/2021, às 9:48 da manhã.
 - Revisado e tornado público em 04/12/2021 às 09:46 (sábado)
 
@@ -18,6 +18,6 @@
 
 
 # Clone Heroku desktop
-![Clone Heroku na tela de um computador](https://github.com/Pedro-costa99/portfolio-layout-google/blob/main/images/screencapture-desktop-1366x768.png)
+![Clone Heroku na tela de um computador](https://github.com/Pedro-costa99/portfolio-pagina-login-heroku/blob/main/images/screencapture-desktop-1366x768.png)
 # Clone Heroju mobile
-![Clone Heroku na tela de um celular](https://github.com/Pedro-costa99/portfolio-layout-google/blob/main/images/screencapture-mobile-motog4.png)
+![Clone Heroku na tela de um celular](https://github.com/Pedro-costa99/portfolio-pagina-login-heroku/blob/main/images/screencapture-mobile-motog4.png)
