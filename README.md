@@ -19,5 +19,5 @@
 
 # Clone Heroku desktop
 ![Clone Heroku na tela de um computador](https://github.com/Pedro-costa99/portfolio-pagina-login-heroku/blob/main/images/screencapture-desktop-1366x768.png)
-# Clone Heroju mobile
+# Clone Heroku mobile
 ![Clone Heroku na tela de um celular](https://github.com/Pedro-costa99/portfolio-pagina-login-heroku/blob/main/images/screencapture-mobile-motog4.png)
